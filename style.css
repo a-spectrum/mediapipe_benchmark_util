@@ -1,0 +1,63 @@
+.control-panel {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.input_video {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+.output_canvas {
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.control-panel-entry {
+    width: 250px;
+    background-color: #8d8d8d;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #000000a0;
+    cursor: pointer;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: .8;
+    padding: 5px 25px;
+    position: relative;
+    z-index: 100;
+}
+
+.control-panel-fps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-panel-fps .fps-text {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    backface-visibility: hidden;
+}
+
+.fps-30 {
+    position: absolute;
+    font-size: 8px;
+    top: 45%;
+    left: 10px;
+}
+
+.fps-60 {
+    position: absolute;
+    font-size: 8px;
+    top: 15%;
+    left: 10px;
+}
